@@ -57,5 +57,4 @@
  - Chars74k data: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/14.png" width="240"/>
 
 
-#### Neural Networks
  
