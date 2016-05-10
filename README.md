@@ -9,8 +9,8 @@
  - A perceptron functions analogously to a neuron; it accepts one or more inputs, processes them, and returns an output.
  - It may seem that a model of just one of the hundreds of billions of neurons in the human brain will be of limited use. 
  - Perceptrons are capable of online, error-driven learning.
- - The learning algorithm can update the model's parameters using a single training instance rather than the entire batch of training instances. 
- <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/1.png" width="350"/></br>
+ - The learning algorithm can update the model's parameters using a single training instance rather than the entire batch of training instances. <br>
+ <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/1.png" height = "120"/></br>
  - The circles labeled x1 , x2 , and x3 are inputs units.
  - Each input unit represents one feature. 
  - The circle in the center is a computational unit or the neuron's body. 
@@ -23,7 +23,7 @@
  - Then predicts the class for a training instance. 
  - If the prediction is correct, the algorithm continues to the next instance. 
  - If the prediction is incorrect, the algorithm updates the weights.
-<img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/2.png" width="350"/></br>
+<img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/2.png"/ height="30"></br>
  - dj is the true class for instance j
  - y(t) is the predictedjclass for instance j
  - x is the value of the ith explanatory variable for instance j
@@ -35,16 +35,15 @@
  - If no hyperplane exists that can separate the classes, the problem is not linearly separable.
 
 #### SVM kernels
- - The decision boundary equation: <img>
- - Predictions are made using function:<img>
- - Change it to primal form:<img>
- - Left plot is linearly inseparable, right plot is linearly separable after mapping to a higher-dimensional space 
-  <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/12.png" width="350"/>
- - Apply the mapping to the feature vectors <img>
+ - The decision boundary equation: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/3.png" height = "30"/>
+ - Predictions are made using function:<img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/4.png" height="30"/>
+ - Change it to primal form:<img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/5.png" height="30"/>
+ - Left plot is linearly inseparable, right plot is linearly separable after mapping to a higher-dimensional space
+  <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/12.png" width="400"/>
+ - Apply the mapping to the feature vectors <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/6.png" height = "68"/>
  - The dot product is sclar, no require for mapping once this scalar has been computed: this is kernel trick
- - Kernel function:
- - Example for two feature vectors and square transformation: <img> 
- - We have: <img>
- - Kernel:<img>
+ - Kernel function: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/7.png" height="30"/>
+ - Example for two feature vectors and square transformation: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/9.png" height="35"/> 
+ - Kernel: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/10.png" height="68"/>
  - 
  
