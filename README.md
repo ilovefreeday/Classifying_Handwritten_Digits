@@ -1,7 +1,7 @@
 # Classifying Handwritten Digits
 1. Using scikit-learn package in python to classify hand writting
 2. Algorithms used including perceptron, support vectors machine(SVM), artificial neural networks (ANN)
-3. Datasets are MINST, Chars74k
+3. Datasets are MINST(70,000 images of handwritten digits), Chars74k(74,000 images of digits 0-9, a-a)
 
 ## Perceptron
 #### Introduction
@@ -45,5 +45,16 @@
  - Kernel function: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/7.png" height="30"/>
  - Example for two feature vectors and square transformation: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/9.png" height="35"/> 
  - Kernel: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/10.png" height="68"/>
- - 
+ - An example of kernel:
+  <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/11.png" height="150"/>
+ - Polynomial kernel: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/15.png" height="30"/>
+ - Sigmoid kernel: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/16.png" height="30"/>
+ - Gaussian kernel: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/17.png" height="30"/>
+ 
+#### Classifying characters
+ - Partitioned into 60,000 training, 10,000 testing
+ - MINST data: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/13.png" width="240"/>
+ - Chars74k data: <img src="https://github.com/ilovefreeday/Classifying_Handwritten_Digits/blob/master/pic/14.png" width="240"/>
+
+#### Neural Networks
  
