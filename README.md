@@ -23,7 +23,7 @@
  - Then predicts the class for a training instance. 
  - If the prediction is correct, the algorithm continues to the next instance. 
  - If the prediction is incorrect, the algorithm updates the weights.
-<img src="https://github.com/yetianpro/handwritten-digits-classification/blob/master/pic/2.png"/ height="30"></br>
+<img src="https://github.com/yetianpro/handwritten-digits-classification/blob/master/pic/2.png" height="30"/></br>
  - dj is the true class for instance j
  - y(t) is the predictedjclass for instance j
  - x is the value of the ith explanatory variable for instance j
